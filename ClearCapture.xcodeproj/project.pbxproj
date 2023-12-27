@@ -14,6 +14,8 @@
 		D3A9BF862B3BA36F00B4ED81 /* ClearCaptureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9BF852B3BA36F00B4ED81 /* ClearCaptureTests.swift */; };
 		D3A9BF902B3BA36F00B4ED81 /* ClearCaptureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9BF8F2B3BA36F00B4ED81 /* ClearCaptureUITests.swift */; };
 		D3A9BF922B3BA36F00B4ED81 /* ClearCaptureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9BF912B3BA36F00B4ED81 /* ClearCaptureUITestsLaunchTests.swift */; };
+		D3A9BF9F2B3BA5E200B4ED81 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9BF9E2B3BA5E200B4ED81 /* CameraView.swift */; };
+		D3A9BFA12B3BAF2B00B4ED81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A9BFA02B3BAF2B00B4ED81 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		D3A9BF8B2B3BA36F00B4ED81 /* ClearCaptureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClearCaptureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3A9BF8F2B3BA36F00B4ED81 /* ClearCaptureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearCaptureUITests.swift; sourceTree = "<group>"; };
 		D3A9BF912B3BA36F00B4ED81 /* ClearCaptureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClearCaptureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3A9BF9E2B3BA5E200B4ED81 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		D3A9BFA02B3BAF2B00B4ED81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				D3A9BF742B3BA36E00B4ED81 /* ClearCaptureApp.swift */,
 				D3A9BF762B3BA36E00B4ED81 /* ContentView.swift */,
+				D3A9BFA02B3BAF2B00B4ED81 /* ViewController.swift */,
+				D3A9BF9E2B3BA5E200B4ED81 /* CameraView.swift */,
 				D3A9BF782B3BA36F00B4ED81 /* Assets.xcassets */,
 				D3A9BF7A2B3BA36F00B4ED81 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A9BF9F2B3BA5E200B4ED81 /* CameraView.swift in Sources */,
 				D3A9BF772B3BA36E00B4ED81 /* ContentView.swift in Sources */,
+				D3A9BFA12B3BAF2B00B4ED81 /* ViewController.swift in Sources */,
 				D3A9BF752B3BA36E00B4ED81 /* ClearCaptureApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
