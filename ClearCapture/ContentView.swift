@@ -3,7 +3,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var isCameraPresented = false
     @State private var sharpImages: [UIImage] = []
-    @State private var sharpnessMessage: String? // Add this line
+    @State private var sharpnessMessage: String?
     
     var body: some View {
         VStack {
@@ -12,7 +12,7 @@ struct ContentView: View {
             }
             
             if let message = sharpnessMessage {
-                Text(message) // Display the sharpness status message
+                Text(message)
                     .padding()
             }
             
@@ -47,7 +47,7 @@ extension ContentView {
         }
 
         let vc = ViewController()
-        if let variance = vc.getVariance(of: image), variance >= 50 { // The threshold value
+        if let variance = vc.getVariance(of: image), variance >= 50 {
             sharpImages.append(image)
             sharpnessMessage = "Captured image is sharp."
         } else {
